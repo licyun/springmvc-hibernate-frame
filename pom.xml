@@ -36,7 +36,6 @@
             <scope>test</scope>
         </dependency>
         <!-- spring orm 配合hibernate -->
-        <!-- https://mvnrepository.com/artifact/org.springframework/spring-orm -->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-orm</artifactId>
@@ -69,7 +68,7 @@
             <version>1.9.13</version>
         </dependency>
 
-        <!-- c3p9连接池 -->
+        <!-- c3p0连接池 -->
         <dependency>
             <groupId>c3p0</groupId>
             <artifactId>c3p0</artifactId>
