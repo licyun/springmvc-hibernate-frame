@@ -5,6 +5,7 @@
 - mvc-dispatcher-servlet.xml springMVC配置文件
 - database.properties mysql数据库配置
 - message.properties 国际化资源验证
+
 ###引入的maven包
 - spring springMVC包
 - hibernate hibernateValid包
