@@ -8,8 +8,14 @@
     <name>springmvc-hibernate-frame</name>
 
     <properties>
-        <spring.version>4.1.1.RELEASE</spring.version>
-        <hibernate.version>4.3.11.Final</hibernate.version>
+        <spring.core.version>5.1.5.RELEASE</spring.core.version>
+        <spring.web.version>5.1.5.RELEASE</spring.web.version>
+        <spring.webmvc.version>5.1.5.RELEASE</spring.webmvc.version>
+        <spring.test.version>5.1.5.RELEASE</spring.test.version>
+        <spring.org.version>5.1.5.RELEASE</spring.org.version>
+
+        <hibernate.version>5.4.2.Final</hibernate.version>
+        <hibernate.validate.version>6.0.15.Final</hibernate.validate.version>
     </properties>
 
     <dependencies>
@@ -17,29 +23,29 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-core</artifactId>
-            <version>${spring.version}</version>
+            <version>${spring.core.version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-web</artifactId>
-            <version>${spring.version}</version>
+            <version>${spring.web.version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-webmvc</artifactId>
-            <version>${spring.version}</version>
+            <version>${spring.webmvc.version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-test</artifactId>
-            <version>${spring.version}</version>
+            <version>${spring.test.version}</version>
             <scope>test</scope>
         </dependency>
         <!-- spring orm 配合hibernate -->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-orm</artifactId>
-            <version>4.3.2.RELEASE</version>
+            <version>${spring.org.version}</version>
         </dependency>
 
 
@@ -53,7 +59,7 @@
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-validator</artifactId>
-            <version>4.3.1.Final</version>
+            <version>${hibernate.validate.version}</version>
         </dependency>
 
         <!-- json -->
